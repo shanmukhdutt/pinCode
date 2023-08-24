@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Identify Area By Pincode</title>
+    <link href="pincode.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+          <div class="search-box">
+                <input type="text" placeholder="Enter the Pincode" id="input-box">
+                <button class="fa-solid fa-magnifying-glass" id="searchBtn"></button>
+            </div>
+        </div>
+        <div class="pincode-not-found">
+            <h2>Invalid...<br>Enter The Valid Pincode</h2>
+            <img src="invalid.png" alt="404 Error">
+        </div>
+        <div class="pincode-found">
+            <img src="loc.jpeg" alt="Valid Image" class="valid-image">
+        </div>
+        <div class="pincode-details">
+            <div class="area">
+                <p>Area Details</p>
+            </div>
+        </div>
+    </div>
+    
+ <script src="pincode.js"></script>
+<script src="https://kit.fontawesome.com/a661ae49a4.js" crossorigin="anonymous"></script>   
+</body>
+</html>
